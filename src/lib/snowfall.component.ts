@@ -11,14 +11,63 @@ export interface Snowflake {
   windVelocityY: number;
 }
 
+/**
+ * Configuration interface for the snowfall component.
+ * All properties are optional and will use default values if not provided.
+ */
 export interface SnowfallConfig {
+  /**
+   * Maximum number of snowflakes on the screen at once.
+   * @default 400
+   */
   maxSnowflakes?: number;
+  
+  /**
+   * Rate at which snow accumulates on the ground (0-1).
+   * Higher values create faster accumulation.
+   * @default 0.6
+   */
   accumulationRate?: number;
+  
+  /**
+   * Maximum height of snow accumulation in pixels.
+   * @default 50
+   */
   maxAccumulationHeight?: number;
+  
+  /**
+   * Radius in pixels around the mouse cursor that influences snowflakes.
+   * Larger values create a wider wind effect area.
+   * @default 250
+   */
   mouseInfluenceRadius?: number;
+  
+  /**
+   * Strength of the wind effect created by mouse movement.
+   * Higher values create stronger wind forces.
+   * @default 20
+   */
   windForce?: number;
+  
+  /**
+   * Rate at which wind velocity decays when mouse stops moving (0-1).
+   * Higher values mean wind stops faster.
+   * @default 0.85
+   */
   windDecay?: number;
+  
+  /**
+   * Inertia factor for wind velocity changes (0-1).
+   * Higher values make wind changes smoother but slower.
+   * @default 0.15
+   */
   windInertia?: number;
+  
+  /**
+   * Friction applied to snowflake wind velocity (0-1).
+   * Higher values create more resistance to wind movement.
+   * @default 0.92
+   */
   windFriction?: number;
 }
 

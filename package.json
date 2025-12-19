@@ -1,6 +1,6 @@
 {
   "name": "ng-snowfall",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Beautiful interactive snowfall component for Angular with mouse wind effect",
   "author": "Nikita Chicherin",
   "license": "MIT",
@@ -18,8 +18,8 @@
     "interactive"
   ],
   "peerDependencies": {
-    "@angular/common": "^16.0.0 || ^17.0.0 || ^18.0.0",
-    "@angular/core": "^16.0.0 || ^17.0.0 || ^18.0.0"
+    "@angular/common": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "@angular/core": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "dependencies": {},
   "main": "./dist/fesm2022/ng-snowfall.mjs",
@@ -33,9 +33,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@angular/compiler": "^16.0.0 || ^17.0.0 || ^18.0.0",
-    "@angular/compiler-cli": "^16.0.0 || ^17.0.0 || ^18.0.0",
-    "ng-packagr": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "@angular/compiler": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "@angular/compiler-cli": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "ng-packagr": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
     "typescript": "~5.4.0"
   },
   "ngPackage": {
