@@ -1,6 +1,6 @@
 {
   "name": "ng-snowfall",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Beautiful interactive snowfall component for Angular with mouse wind effect",
   "author": "Nikita Chicherin",
   "license": "MIT",
