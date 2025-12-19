@@ -1,0 +1,8 @@
+src/
+tsconfig*.json
+ng-package.json
+.gitignore
+.DS_Store
+.idea/
+.vscode/
+*.log
