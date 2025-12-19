@@ -22,10 +22,10 @@
     "@angular/core": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {},
-  "main": "dist/ng-snowfall.umd.js",
-  "module": "dist/ng-snowfall.es5.js",
-  "es2015": "dist/ng-snowfall.es2015.js",
-  "typings": "dist/index.d.ts",
+  "main": "./dist/fesm2022/ng-snowfall.mjs",
+  "module": "./dist/fesm2022/ng-snowfall.mjs",
+  "es2022": "./dist/fesm2022/ng-snowfall.mjs",
+  "typings": "./dist/index.d.ts",
   "sideEffects": false,
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
