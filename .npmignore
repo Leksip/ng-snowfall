@@ -1,6 +1,7 @@
 src/
 tsconfig*.json
 ng-package.json
+PUBLISH.md
 .gitignore
 .DS_Store
 .idea/
